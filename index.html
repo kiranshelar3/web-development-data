@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamite fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('img/abs.jpg');
+            height: auto;
+            color: white;
+
+        }
+
+        .left {
+            line-height: 19px;
+            font-size: 20px;
+            /* border: solid green; */
+            display: inline-block;
+            position: absolute;
+            left: 10px;
+            top: 5px;
+            margin: 10px;
+
+
+        }
+
+        .center {
+            /* border: solid red; */
+            display: block;
+            width: 40%;
+            margin: 29px auto;
+
+        }
+
+        .right {
+            /* border: solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 25px;
+            top: 20px;
+            margin: 15px;
+
+        }
+
+        .navbar li a {
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 10px 20px;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .left img {
+            color: black;
+            width: 70px;
+
+
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+            color: whitesmoke;
+
+        }
+
+        .btn {
+            margin: 5px 5px;
+            border-radius: 10px;
+            padding: 5px 13px;
+            border: 2px solid gray;
+            background-color: black;
+            color: white;
+            font-size: 17px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(124, 115, 115);
+
+        }
+
+        .container {
+
+            border: 3px solid whitesmoke;
+            margin: 210px 45px;
+            width: 35%;
+
+            padding: 40px;
+            border-radius: 15px;
+
+        }
+        .formgorup input{
+            font-family: 'Baloo Bhai 2', cursive;
+
+            text-align: center;
+            display: block;
+            width: 50%;
+            border: 2px solid gray;
+            border-radius: 8px;
+            margin: 10px auto;
+            padding: 5px;
+            font-size: 15px;
+        }
+        .container h1 {
+            text-align: center;
+        }
+        .formgorup button {
+            display: block;
+            width: 55%;
+            margin: 15px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- for logo -->
+            <img src="img/download.png" alt="">
+            <div>
+                Dynamite fitness
+
+            </div>
+
+        </div>
+
+        <div class="center">
+            <!-- for nav menu -->
+            <ul class="navbar">
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> About us </a></li>
+                <li><a href="#"> Details </a></li>
+                <li><a href="#"> Conact us </a></li>
+
+
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <!-- extra -->
+            <button class="btn">
+                search
+            </button>
+            <button class="btn">Email us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1> Join the best gym & yoga center </h1>
+        <form action="noactive.django ">
+            <div class="formgorup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgorup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgorup">
+                <input type="text" name="" placeholder="Enter your City">
+            </div>
+            <div class="formgorup">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="formgorup">
+                <input type="text" name="" placeholder="Enter your contact number">
+            </div>
+            <div class="formgorup">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
